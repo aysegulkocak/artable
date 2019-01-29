@@ -12,6 +12,11 @@
 		D83B1CDF22009A270007B45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CDD22009A270007B45A /* Main.storyboard */; };
 		D83B1CE122009A280007B45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CE022009A280007B45A /* Assets.xcassets */; };
 		D83B1CE422009A280007B45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CE222009A280007B45A /* LaunchScreen.storyboard */; };
+		D83B1CF222009AA60007B45A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B1CF122009AA60007B45A /* AppDelegate.swift */; };
+		D83B1CF422009AA60007B45A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B1CF322009AA60007B45A /* ViewController.swift */; };
+		D83B1CF722009AA60007B45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CF522009AA60007B45A /* Main.storyboard */; };
+		D83B1CFC22009AA70007B45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CFA22009AA70007B45A /* LaunchScreen.storyboard */; };
+		D83B1D0222009E3E0007B45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CE022009A280007B45A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,23 @@
 		D83B1CE022009A280007B45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83B1CE322009A280007B45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D83B1CE522009A280007B45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83B1CEF22009AA60007B45A /* ArtableAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtableAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83B1CF122009AA60007B45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D83B1CF322009AA60007B45A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D83B1CF622009AA60007B45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D83B1CFB22009AA70007B45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D83B1CFD22009AA70007B45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D83B1CD322009A270007B45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83B1CEC22009AA60007B45A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				D83B1CD822009A270007B45A /* Artable */,
+				D83B1CF022009AA60007B45A /* ArtableAdmin */,
 				D83B1CD722009A270007B45A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				D83B1CD622009A270007B45A /* Artable.app */,
+				D83B1CEF22009AA60007B45A /* ArtableAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +74,34 @@
 		D83B1CD822009A270007B45A /* Artable */ = {
 			isa = PBXGroup;
 			children = (
+				D83B1D0122009CA70007B45A /* Shared */,
 				D83B1CD922009A270007B45A /* AppDelegate.swift */,
 				D83B1CDB22009A270007B45A /* ViewController.swift */,
 				D83B1CDD22009A270007B45A /* Main.storyboard */,
-				D83B1CE022009A280007B45A /* Assets.xcassets */,
 				D83B1CE222009A280007B45A /* LaunchScreen.storyboard */,
 				D83B1CE522009A280007B45A /* Info.plist */,
 			);
 			path = Artable;
+			sourceTree = "<group>";
+		};
+		D83B1CF022009AA60007B45A /* ArtableAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				D83B1CF122009AA60007B45A /* AppDelegate.swift */,
+				D83B1CF322009AA60007B45A /* ViewController.swift */,
+				D83B1CF522009AA60007B45A /* Main.storyboard */,
+				D83B1CFA22009AA70007B45A /* LaunchScreen.storyboard */,
+				D83B1CFD22009AA70007B45A /* Info.plist */,
+			);
+			path = ArtableAdmin;
+			sourceTree = "<group>";
+		};
+		D83B1D0122009CA70007B45A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D83B1CE022009A280007B45A /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +124,23 @@
 			productReference = D83B1CD622009A270007B45A /* Artable.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D83B1CEE22009AA60007B45A /* ArtableAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83B1CFE22009AA70007B45A /* Build configuration list for PBXNativeTarget "ArtableAdmin" */;
+			buildPhases = (
+				D83B1CEB22009AA60007B45A /* Sources */,
+				D83B1CEC22009AA60007B45A /* Frameworks */,
+				D83B1CED22009AA60007B45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtableAdmin;
+			productName = ArtableAdmin;
+			productReference = D83B1CEF22009AA60007B45A /* ArtableAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +152,9 @@
 				ORGANIZATIONNAME = "Ayşegül Koçak";
 				TargetAttributes = {
 					D83B1CD522009A270007B45A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D83B1CEE22009AA60007B45A = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				D83B1CD522009A270007B45A /* Artable */,
+				D83B1CEE22009AA60007B45A /* ArtableAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +189,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D83B1CED22009AA60007B45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83B1CFC22009AA70007B45A /* LaunchScreen.storyboard in Resources */,
+				D83B1D0222009E3E0007B45A /* Assets.xcassets in Resources */,
+				D83B1CF722009AA60007B45A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +208,15 @@
 			files = (
 				D83B1CDC22009A270007B45A /* ViewController.swift in Sources */,
 				D83B1CDA22009A270007B45A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83B1CEB22009AA60007B45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83B1CF422009AA60007B45A /* ViewController.swift in Sources */,
+				D83B1CF222009AA60007B45A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +235,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D83B1CE322009A280007B45A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D83B1CF522009AA60007B45A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83B1CF622009AA60007B45A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D83B1CFA22009AA70007B45A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D83B1CFB22009AA70007B45A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -314,6 +410,42 @@
 			};
 			name = Release;
 		};
+		D83B1CFF22009AA70007B45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBACMN2Q84;
+				INFOPLIST_FILE = ArtableAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aysegulkock.ArtableAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D83B1D0022009AA70007B45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBACMN2Q84;
+				INFOPLIST_FILE = ArtableAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aysegulkock.ArtableAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +463,15 @@
 			buildConfigurations = (
 				D83B1CE922009A280007B45A /* Debug */,
 				D83B1CEA22009A280007B45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83B1CFE22009AA70007B45A /* Build configuration list for PBXNativeTarget "ArtableAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83B1CFF22009AA70007B45A /* Debug */,
+				D83B1D0022009AA70007B45A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
