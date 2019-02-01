@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CDDE28FB4D998401A007AD5 /* Pods_ArtableAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77410F5EE8B96B89B5FDD6D /* Pods_ArtableAdmin.framework */; };
+		D80654892201F58B009114FB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CE522009A280007B45A /* Info.plist */; };
+		D806548C2201FAA7009114FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D806548B2201FAA7009114FB /* GoogleService-Info.plist */; };
+		D806548E22020434009114FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D806548D22020434009114FB /* GoogleService-Info.plist */; };
 		D83B1CDA22009A270007B45A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B1CD922009A270007B45A /* AppDelegate.swift */; };
 		D83B1CDC22009A270007B45A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B1CDB22009A270007B45A /* ViewController.swift */; };
 		D83B1CDF22009A270007B45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CDD22009A270007B45A /* Main.storyboard */; };
@@ -17,9 +21,21 @@
 		D83B1CF722009AA60007B45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CF522009AA60007B45A /* Main.storyboard */; };
 		D83B1CFC22009AA70007B45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CFA22009AA70007B45A /* LaunchScreen.storyboard */; };
 		D83B1D0222009E3E0007B45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83B1CE022009A280007B45A /* Assets.xcassets */; };
+		D83B1D062200F6550007B45A /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83B1D052200F6550007B45A /* LoginStoryboard.storyboard */; };
+		D8CED175220233B500295E26 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CED174220233B500295E26 /* LoginVC.swift */; };
+		D8CED1772202341400295E26 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CED1762202341400295E26 /* RegisterVC.swift */; };
+		D8CED17A2202449D00295E26 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CED1792202449D00295E26 /* Extensions.swift */; };
+		D8CED17C2202529200295E26 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CED17B2202529200295E26 /* Constants.swift */; };
+		D8CED17E2202577E00295E26 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CED17D2202577E00295E26 /* RoundedViews.swift */; };
+		E638926EC0EA344E47D36A65 /* Pods_Artable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC55761E1EDA170DDC02039E /* Pods_Artable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C2C7DBF90A9D8DA8043701F /* Pods-ArtableAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtableAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		7F31D022B2F1852039D0D145 /* Pods-Artable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Artable/Pods-Artable.debug.xcconfig"; sourceTree = "<group>"; };
+		CBF9DA01D9055B34D8D80963 /* Pods-Artable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Artable/Pods-Artable.release.xcconfig"; sourceTree = "<group>"; };
+		D806548B2201FAA7009114FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D806548D22020434009114FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D83B1CD622009A270007B45A /* Artable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83B1CD922009A270007B45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D83B1CDB22009A270007B45A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +49,15 @@
 		D83B1CF622009AA60007B45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D83B1CFB22009AA70007B45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D83B1CFD22009AA70007B45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83B1D052200F6550007B45A /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		D8CED174220233B500295E26 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D8CED1762202341400295E26 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		D8CED1792202449D00295E26 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D8CED17B2202529200295E26 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D8CED17D2202577E00295E26 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		DC55761E1EDA170DDC02039E /* Pods_Artable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77410F5EE8B96B89B5FDD6D /* Pods_ArtableAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtableAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F089AB49F480C3A2170DFCAB /* Pods-ArtableAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtableAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E638926EC0EA344E47D36A65 /* Pods_Artable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,18 +73,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDDE28FB4D998401A007AD5 /* Pods_ArtableAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21D413C64C2CB0C394AA043B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC55761E1EDA170DDC02039E /* Pods_Artable.framework */,
+				E77410F5EE8B96B89B5FDD6D /* Pods_ArtableAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1E980A6F62BA2BED9ABB0D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F31D022B2F1852039D0D145 /* Pods-Artable.debug.xcconfig */,
+				CBF9DA01D9055B34D8D80963 /* Pods-Artable.release.xcconfig */,
+				F089AB49F480C3A2170DFCAB /* Pods-ArtableAdmin.debug.xcconfig */,
+				2C2C7DBF90A9D8DA8043701F /* Pods-ArtableAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D83B1CCD22009A270007B45A = {
 			isa = PBXGroup;
 			children = (
+				D83B1D0122009CA70007B45A /* Shared */,
 				D83B1CD822009A270007B45A /* Artable */,
 				D83B1CF022009AA60007B45A /* ArtableAdmin */,
 				D83B1CD722009A270007B45A /* Products */,
+				B1E980A6F62BA2BED9ABB0D1 /* Pods */,
+				21D413C64C2CB0C394AA043B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,11 +124,11 @@
 		D83B1CD822009A270007B45A /* Artable */ = {
 			isa = PBXGroup;
 			children = (
-				D83B1D0122009CA70007B45A /* Shared */,
-				D83B1CD922009A270007B45A /* AppDelegate.swift */,
-				D83B1CDB22009A270007B45A /* ViewController.swift */,
-				D83B1CDD22009A270007B45A /* Main.storyboard */,
-				D83B1CE222009A280007B45A /* LaunchScreen.storyboard */,
+				D8CED1722202320A00295E26 /* Model */,
+				D8CED1712202320500295E26 /* View */,
+				D8CED170220231EC00295E26 /* Controller */,
+				D8CED1732202322D00295E26 /* Storyboards */,
+				D806548B2201FAA7009114FB /* GoogleService-Info.plist */,
 				D83B1CE522009A280007B45A /* Info.plist */,
 			);
 			path = Artable;
@@ -91,6 +141,7 @@
 				D83B1CF322009AA60007B45A /* ViewController.swift */,
 				D83B1CF522009AA60007B45A /* Main.storyboard */,
 				D83B1CFA22009AA70007B45A /* LaunchScreen.storyboard */,
+				D806548D22020434009114FB /* GoogleService-Info.plist */,
 				D83B1CFD22009AA70007B45A /* Info.plist */,
 			);
 			path = ArtableAdmin;
@@ -99,9 +150,63 @@
 		D83B1D0122009CA70007B45A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D8CED17F22025A8C00295E26 /* View */,
+				D8CED1782202447B00295E26 /* Utils */,
 				D83B1CE022009A280007B45A /* Assets.xcassets */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		D8CED170220231EC00295E26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8CED174220233B500295E26 /* LoginVC.swift */,
+				D8CED1762202341400295E26 /* RegisterVC.swift */,
+				D83B1CD922009A270007B45A /* AppDelegate.swift */,
+				D83B1CDB22009A270007B45A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8CED1712202320500295E26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8CED1722202320A00295E26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8CED1732202322D00295E26 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D83B1CDD22009A270007B45A /* Main.storyboard */,
+				D83B1D052200F6550007B45A /* LoginStoryboard.storyboard */,
+				D83B1CE222009A280007B45A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D8CED1782202447B00295E26 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D8CED1792202449D00295E26 /* Extensions.swift */,
+				D8CED17B2202529200295E26 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D8CED17F22025A8C00295E26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8CED17D2202577E00295E26 /* RoundedViews.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D83B1CE822009A280007B45A /* Build configuration list for PBXNativeTarget "Artable" */;
 			buildPhases = (
+				F36CF62D30ECF1C0EB59A1B7 /* [CP] Check Pods Manifest.lock */,
 				D83B1CD222009A270007B45A /* Sources */,
 				D83B1CD322009A270007B45A /* Frameworks */,
 				D83B1CD422009A270007B45A /* Resources */,
+				B34D103B7B580E338C065D8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D83B1CFE22009AA70007B45A /* Build configuration list for PBXNativeTarget "ArtableAdmin" */;
 			buildPhases = (
+				BCF3D2E7665682603F4CACA8 /* [CP] Check Pods Manifest.lock */,
 				D83B1CEB22009AA60007B45A /* Sources */,
 				D83B1CEC22009AA60007B45A /* Frameworks */,
 				D83B1CED22009AA60007B45A /* Resources */,
+				3BE73C7F0D899608D534DB7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +294,10 @@
 			files = (
 				D83B1CE422009A280007B45A /* LaunchScreen.storyboard in Resources */,
 				D83B1CE122009A280007B45A /* Assets.xcassets in Resources */,
+				D80654892201F58B009114FB /* Info.plist in Resources */,
 				D83B1CDF22009A270007B45A /* Main.storyboard in Resources */,
+				D83B1D062200F6550007B45A /* LoginStoryboard.storyboard in Resources */,
+				D806548C2201FAA7009114FB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,19 +307,144 @@
 			files = (
 				D83B1CFC22009AA70007B45A /* LaunchScreen.storyboard in Resources */,
 				D83B1D0222009E3E0007B45A /* Assets.xcassets in Resources */,
+				D806548E22020434009114FB /* GoogleService-Info.plist in Resources */,
 				D83B1CF722009AA60007B45A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BE73C7F0D899608D534DB7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B34D103B7B580E338C065D8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Artable/Pods-Artable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Artable/Pods-Artable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF3D2E7665682603F4CACA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtableAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36CF62D30ECF1C0EB59A1B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Artable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D83B1CD222009A270007B45A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CED17A2202449D00295E26 /* Extensions.swift in Sources */,
 				D83B1CDC22009A270007B45A /* ViewController.swift in Sources */,
+				D8CED1772202341400295E26 /* RegisterVC.swift in Sources */,
 				D83B1CDA22009A270007B45A /* AppDelegate.swift in Sources */,
+				D8CED17E2202577E00295E26 /* RoundedViews.swift in Sources */,
+				D8CED175220233B500295E26 /* LoginVC.swift in Sources */,
+				D8CED17C2202529200295E26 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +613,7 @@
 		};
 		D83B1CE922009A280007B45A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F31D022B2F1852039D0D145 /* Pods-Artable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +632,7 @@
 		};
 		D83B1CEA22009A280007B45A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF9DA01D9055B34D8D80963 /* Pods-Artable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -412,6 +651,7 @@
 		};
 		D83B1CFF22009AA70007B45A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F089AB49F480C3A2170DFCAB /* Pods-ArtableAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,6 +670,7 @@
 		};
 		D83B1D0022009AA70007B45A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2C7DBF90A9D8DA8043701F /* Pods-ArtableAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
